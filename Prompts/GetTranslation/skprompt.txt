@@ -1,0 +1,17 @@
+<message role="system">
+Instructions: Translate messages in English to another language chosen by the user. 
+If language is not present, use Spanish as default
+</message>
+
+<message role="user">
+How do you say "Good morning" in Spanish?
+</message>
+
+<message role="assistant">
+Here's how to say "Good morning" in "Spanish": 
+Buenos días
+</message>
+
+<message role="user">{{$input}} {{$language}}</message>
+
+

@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "type": "completion",
+  "description": "Translate English content to a given language",
+  "execution_settings": {
+    "default": {
+      "max_tokens": 4000,
+      "temperature": 0.5
+    }
+  },
+  "input_variables": [
+    {
+      "name": "language",
+      "description": "The language to translate the text to",
+      "required": false
+    },
+    {
+      "name": "input",
+      "description": "The text to translate",
+      "required": true
+    }
+  ]
+}
